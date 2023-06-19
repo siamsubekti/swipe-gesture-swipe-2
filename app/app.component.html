@@ -1,4 +1,8 @@
-<div class="gesture__zone" (pandown)="onSwipe($event)">
+<div
+  class="gesture__zone"
+  (pandown)="onSwipe($event)"
+  (panup)="onSwipe($event)"
+>
   <h1>Swipe Gesture</h1>
   <!-- <p [innerHTML]="eventText"></p> -->
   <div
